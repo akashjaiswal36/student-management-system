@@ -30,3 +30,11 @@ This project is built to gain hands-on experience with cloud-native systems, Kub
 - Add authentication & authorization
 - Implement autoscaling (HPA)
 - Introduce API Gateway
+
+
+
+User → API → Microservices → Database
+             ↓
+         Kubernetes (EKS)
+             ↓
+           AWS
